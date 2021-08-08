@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Basic React 101 Rendering Sample</title>
+        <title>Basic React 101: Rendering A Button</title>
         <script
             src='https://npmcdn.com/react@15.3.1/dist/react.js'>
         </script>
@@ -9,7 +9,7 @@
         </script>
     </head>
     <body>
-        <!-- React will render UI components inside 'root-react' div -->
+        <!-- React will render UI components inside 'root-react' -->
         <div id="root-react"></div>
         
         <script type='text/javascript'>
@@ -20,7 +20,10 @@
                 React.createElement(
                     'div',
                     null,
-                    'Basic Level React : Hello World'
+                    React.createElement(
+                        'button',
+                        null,
+                        'React Button Example')
                 ),
                 document.getElementById('root-react')
             );
