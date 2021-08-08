@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Basic React 101 Rendering Sample</title>
+        <script
+            src='https://npmcdn.com/react@15.3.1/dist/react.js'>
+        </script>
+        <script
+            src='https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js'>
+        </script>
+    </head>
+    <body>
+        <!-- React will render UI components inside 'main-react-div' -->
+        <div id="root-react"></div>
+        
+        <script type='text/javascript'>
+            // Call the render method of ReactDOM with 2 parameters: 
+            // (i) React element to render; and 
+            // (ii) location to render it
+            ReactDOM.render(
+                React.createElement(
+                    'div',
+                    null,
+                    'Basic Level React : Hello World'
+                ),
+                document.getElementById('root-react')
+            );
+        </script> 
+        
+    </body>
+</html>
