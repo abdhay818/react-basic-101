@@ -1,0 +1,24 @@
+{
+  "name": "react-basic-101",
+  "version": "1.0.0",
+  "description": "This is my repos about Basic React 101",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdhay818/react-basic-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdhay818/react-basic-101/issues"
+  },
+  "homepage": "https://github.com/abdhay818/react-basic-101#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^2.35.3"
+  }
+}
